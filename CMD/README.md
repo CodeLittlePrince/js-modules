@@ -61,7 +61,7 @@ define(function () {
 });
 ```
 
-模块a：
+模块c：
 ```js
 // c.js
 console.log('c')
