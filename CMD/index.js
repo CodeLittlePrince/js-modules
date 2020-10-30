@@ -1,6 +1,6 @@
-requirejs.config({
-  baseUrl: '/AMD',
-  // paths: {
+seajs.config({
+  base: '/CMD',
+  // alias: {
   //     app: '../app'
   // }
 });
@@ -8,7 +8,7 @@ requirejs.config({
 console.log('index')
 
 // 加载入口模块
-requirejs(['a'], function(a) {
+seajs.use(['a'], function(a) {
   console.log('index call')
 
   a.speak()
