@@ -34,6 +34,12 @@ define(function(require, factory) {
   var b = require('b')
   var c = require('c')
 
+  // var flag = false
+  // if (flag) {
+  //   var c = require.async('c')
+  //   c.say()
+  // }
+
   return {
     speak: b.speak,
     say: c.say
@@ -103,9 +109,11 @@ index.js=>a.js=>b.js
 
 2. **模块化成本低**：只需要引入require.js就可以实现模块化；
 
-3. **按需执行**：比如：if(false){ require('c') }，这样的写法虽然还是会就去加载c.js的文件，但是不会执行c模块里的define回调，从而提升代码执行性能；
+### 相比requirejs优点
 
-4. **按需加载**：比如：if(false){ require.async('a') }，这样的写法就不去加载c.js的文件了；
+1. **按需执行**：比如：if(false){ require('c') }，这样的写法虽然还是会就去加载c.js的文件，但是不会执行c模块里的define回调，从而提升代码执行性能；
+
+2. **按需加载**：比如：if(false){ require.async('a') }，这样的写法就不去加载c.js的文件了；
 
 ### 缺点
 1. **代码执行顺序不按书写顺序**：从文件a.js可以看出，require的模块执行顺序是在console.log('a call')之前，并不是按照书写的顺序那样；
