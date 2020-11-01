@@ -1,7 +1,7 @@
-AMD
+CommonJS
 ---
 ### 定义
-[commonjs](http://www.commonjs.org/)
+[CommonJS](http://www.commonjs.org/)
 
 ### 用法
 1.因为commonjs是node的模块化方式，我们我们直接在控制台用：
@@ -68,7 +68,7 @@ module.exports = {
 };
 ```
 
-最终，控制台`Console`会打印出：
+最终，控制台会打印出：
 ```js
 index
 a
