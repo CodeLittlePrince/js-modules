@@ -39,3 +39,7 @@ ES6-import-node
 在node中的 ES6 import
 
 [文档](https://github.com/CodeLittlePrince/js-modules/tree/master/ES6-import-node)
+
+UMD
+---
+[文档](https://github.com/CodeLittlePrince/js-modules/tree/master/UMD)
