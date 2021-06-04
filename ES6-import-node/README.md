@@ -59,7 +59,7 @@ export default {
 // b.js
 console.log('b')
 
-module.exports = {
+export default {
   speak: function () {
     console.log('Hello World')
   }
@@ -71,7 +71,7 @@ module.exports = {
 // c.js
 console.log('c')
 
-module.exports = {
+export default {
   say: function () {
     console.log('Wow')
   }
