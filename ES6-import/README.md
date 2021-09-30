@@ -1,4 +1,4 @@
-ES6 import
+ES6-import-browser
 ---
 ### 定义
 [JavaScript modules](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Modules)
