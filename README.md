@@ -5,7 +5,7 @@
 
 Demo运行
 ---
-自己在本项目启一个http server即可。比如Mac下可用：
+自己在本项目启一个http server即可。比如：
 ```shell
 php -S 127.0.0.1:8888
 ```
