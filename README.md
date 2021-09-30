@@ -22,7 +22,7 @@ CommonJS
 ---
 [文档](https://github.com/CodeLittlePrince/js-modules/tree/master/CommonJS)
 
-ES6 import
+ES6-import-browser
 ---
 在浏览器端的原生 ES6 import
 
